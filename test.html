@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <script src="jquery.min.js"></script>
+    <script>
+        $(function () {
+            alert($("#aaa").css("color"));
+        });
+
+    </script>
+</head>
+
+
+<body>
+
+<h5>默认风格：</h5>
+<l class="ui-step ui-step-4" >
+    <li class="step-start step-done" id="aaa" style="color:red;">
+        <div class="ui-step-line"></div>
+        <div class="ui-step-cont">
+            <span class="ui-step-cont-number">1</span>
+            <span class="ui-step-cont-text">填写资料</span>
+        </div>
+    </li>
+    <li class="step-done">
+        <div class="ui-step-line"></div>
+        <div class="ui-step-cont">
+            <span class="ui-step-cont-number">2</span>
+            <span class="ui-step-cont-text">审核填写信息</span>
+        </div>
+    </li>
+
+    <li class="step-active">
+        <div class="ui-step-line"></div>
+        <div class="ui-step-cont">
+            <span class="ui-step-cont-number">3</span>
+            <span class="ui-step-cont-text">审核填写信息</span>
+        </div>
+    </li>
+    <li class="step-end step-done">
+        <div class="ui-step-line"></div>
+        <div class="ui-step-cont">
+            <span class="ui-step-cont-number">4</span>
+            <span class="ui-step-cont-text">完成注册</span>
+        </div>
+    </li>
+</l>
+
+</body>
+
+</html>
